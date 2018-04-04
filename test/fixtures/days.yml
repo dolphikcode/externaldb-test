@@ -1,0 +1,67 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  day_1: 1
+  day_2: 1
+  day_3: 1
+  day_4: 1
+  day_5: 1
+  day_6: 1
+  day_7: 1
+  day_8: 1
+  day_9: 1
+  day_10: 1
+  day_11: 1
+  day_12: 1
+  day_13: 1
+  day_14: 1
+  day_15: 1
+  day_16: 1
+  day_17: 1
+  day_18: 1
+  day_19: 1
+  day_20: 1
+  day_21: 1
+  day_22: 1
+  day_23: 1
+  day_24: 1
+  day_25: 1
+  day_26: 1
+  day_27: 1
+  day_28: 1
+  day_29: 1
+  day_30: 1
+  day_31: 1
+
+two:
+  day_1: 1
+  day_2: 1
+  day_3: 1
+  day_4: 1
+  day_5: 1
+  day_6: 1
+  day_7: 1
+  day_8: 1
+  day_9: 1
+  day_10: 1
+  day_11: 1
+  day_12: 1
+  day_13: 1
+  day_14: 1
+  day_15: 1
+  day_16: 1
+  day_17: 1
+  day_18: 1
+  day_19: 1
+  day_20: 1
+  day_21: 1
+  day_22: 1
+  day_23: 1
+  day_24: 1
+  day_25: 1
+  day_26: 1
+  day_27: 1
+  day_28: 1
+  day_29: 1
+  day_30: 1
+  day_31: 1

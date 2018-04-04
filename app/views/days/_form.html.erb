@@ -1,0 +1,172 @@
+<%= form_with(model: day, local: true) do |form| %>
+  <% if day.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(day.errors.count, "error") %> prohibited this day from being saved:</h2>
+
+      <ul>
+      <% day.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :day_1 %>
+    <%= form.number_field :day_1, id: :day_day_1 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_2 %>
+    <%= form.number_field :day_2, id: :day_day_2 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_3 %>
+    <%= form.number_field :day_3, id: :day_day_3 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_4 %>
+    <%= form.number_field :day_4, id: :day_day_4 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_5 %>
+    <%= form.number_field :day_5, id: :day_day_5 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_6 %>
+    <%= form.number_field :day_6, id: :day_day_6 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_7 %>
+    <%= form.number_field :day_7, id: :day_day_7 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_8 %>
+    <%= form.number_field :day_8, id: :day_day_8 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_9 %>
+    <%= form.number_field :day_9, id: :day_day_9 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_10 %>
+    <%= form.number_field :day_10, id: :day_day_10 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_11 %>
+    <%= form.number_field :day_11, id: :day_day_11 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_12 %>
+    <%= form.number_field :day_12, id: :day_day_12 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_13 %>
+    <%= form.number_field :day_13, id: :day_day_13 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_14 %>
+    <%= form.number_field :day_14, id: :day_day_14 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_15 %>
+    <%= form.number_field :day_15, id: :day_day_15 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_16 %>
+    <%= form.number_field :day_16, id: :day_day_16 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_17 %>
+    <%= form.number_field :day_17, id: :day_day_17 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_18 %>
+    <%= form.number_field :day_18, id: :day_day_18 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_19 %>
+    <%= form.number_field :day_19, id: :day_day_19 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_20 %>
+    <%= form.number_field :day_20, id: :day_day_20 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_21 %>
+    <%= form.number_field :day_21, id: :day_day_21 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_22 %>
+    <%= form.number_field :day_22, id: :day_day_22 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_23 %>
+    <%= form.number_field :day_23, id: :day_day_23 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_24 %>
+    <%= form.number_field :day_24, id: :day_day_24 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_25 %>
+    <%= form.number_field :day_25, id: :day_day_25 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_26 %>
+    <%= form.number_field :day_26, id: :day_day_26 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_27 %>
+    <%= form.number_field :day_27, id: :day_day_27 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_28 %>
+    <%= form.number_field :day_28, id: :day_day_28 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_29 %>
+    <%= form.number_field :day_29, id: :day_day_29 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_30 %>
+    <%= form.number_field :day_30, id: :day_day_30 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :day_31 %>
+    <%= form.number_field :day_31, id: :day_day_31 %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
